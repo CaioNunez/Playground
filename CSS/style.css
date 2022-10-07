@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/Img/mountain.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: auto;
+
+}
+
+.headermain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.logodireito {
+    padding: 5px;
+}
+
+.msg {
+    font-size: 30px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    width: 100%;
+    top: 20%;
+}
+
+.cabecaform {
+    display: flex;
+    justify-content: center;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    padding: 38px 27px 45px;
+    border-radius: 5px;
+    max-width: 370px;
+    width: 90%;
+}
+
+.form1 h1 {
+    text-align: center;
+}
+
+.botaoentrar a {
+    text-decoration: none;
+
+}
+
+.botaoentrar a:hover {
+    color: white;
+}
+
+.botaoacessar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.botaoacessar span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.botaoacessar img {
+    height: 17px;
+    padding-left: 2px;
+}
+
+.politicas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.politicas a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    top: 120%;
+    left: 47%;
+    padding: 2px;
+    margin: 2px;
+}
+
+@media(max-width: 414px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;
+        max-height: 100vh;
+        margin-top: 55px;
+    }
+}
+
+@media(max-width: 700px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw;
+        max-height: 100vh;
+        margin-top: 55px;
+    }
+}
+
+.politicas a:hover {
+    color: white;
+}
